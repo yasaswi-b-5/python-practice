@@ -100,11 +100,15 @@ print(count)'''
 #Output:12
 #Explanation:
 #3 + 4 + 5 = 12
-'''num=int(input('enter the num:',))
-sum=0
-if num%10==0:
-    sum=sum+num
-print(sum)'''
+'''num = int(input("Enter the number: "))
+total = 0
+
+while num > 0:
+    digit = num % 10
+    total = total + digit
+    num = num // 10
+
+print(total)'''
 
 #9.Write a Python program using a while loop to calculate the factorial of a given number.
 #Input:5
