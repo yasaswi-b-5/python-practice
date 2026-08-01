@@ -20,11 +20,12 @@ while num>0:
 '''
 num=int(input('enter the num:',))
 n=1
+sum=0
 while n<=num:
     if n %2!=0:
-        print(n)
+        sum=sum+n
     n=n+1'''
-
+print(sum)
 #3.Write a Python program using a while loop to repeatedly add the digits of a number until a single digit is obtained?
 #Input:9875
 #Output:2
